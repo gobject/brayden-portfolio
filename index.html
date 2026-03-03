@@ -1,56 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Brayden Charbonneau</title>
-    <style>
-        body {
-            background-color: #0f0f0f;
-            color: white;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-        }
-
-        h1 {
-            font-size: 40px;
-        }
-
-        .section {
-            margin-top: 50px;
-        }
-
-        a {
-            color: #4da6ff;
-            text-decoration: none;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Brayden Wayne Charbonneau Portfolio - Web development, projects, skills, and contact information.">
+    <title>Brayden Charbonneau | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <!-- Navigation bar -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Brayden Charbonneau</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle">Toggle Dark/Light</button>
+        </nav>
+    </header>
 
-    <h1>Brayden Charbonneau</h1>
-    <p>Computer Science Student at FAU</p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Hello, I'm Brayden</h2>
+        <p>Computer Science BA Student | Web Development Enthusiast | Aspiring Full-Stack Developer</p>
+        <a href="#projects" class="btn">See My Work</a>
+    </section>
 
-    <div class="section">
+    <!-- About Section -->
+    <section id="about">
         <h2>About Me</h2>
-        <p>I am a Computer Science student focused on technology, problem solving, and building practical solutions.</p>
-    </div>
+        <p>I'm a Computer Science student at Florida Atlantic University, passionate about creating clean, modern websites and building practical solutions. I enjoy coding projects that are visually appealing, interactive, and functional. Future projects will showcase my skills in web design, programming, and problem-solving.</p>
+    </section>
 
-    <div class="section">
+    <!-- Skills Section -->
+    <section id="skills">
         <h2>Skills</h2>
-        <p>Python | Excel | IT Support | OneDrive | Accounting Operations</p>
-    </div>
+        <ul class="skills-list">
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>HTML5 & CSS3</li>
+            <li>React (future projects)</li>
+            <li>Git & GitHub</li>
+            <li>Excel & Outlook</li>
+            <li>Data Structures & Algorithms</li>
+            <li>Computer Logic Design</li>
+            <li>Cybersecurity Basics</li>
+        </ul>
+    </section>
 
-    <div class="section">
-        <h2>Experience</h2>
-        <p>Intern at Hurricane Aerospace (2024–2025)</p>
-    </div>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <!-- Placeholder projects -->
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Coming soon! <a href="projects/project1.html">View Details</a></p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Coming soon! <a href="projects/project2.html">View Details</a></p>
+            </div>
+            <div class="project-card">
+            <h3>Project 3</h3>
+            <p>Coming soon! <a href="projects/project3.html">View Details</a></p>
+        </div>
+        </div>
+    </section>
 
-    <div class="section">
-        <h2>Contact</h2>
-        <p>Email: braydencan@gmail.com</p>
-        <p><a href="https://github.com/gobject">GitHub</a></p>
-    </div>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:braydencan@gmail.com">braydencan@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/braydenwaynecharbonneau/" target="_blank">LinkedIn Profile</a></p>
+        <p>GitHub: <a href="https://github.com/gobject" target="_blank">GitHub</a></p>
+    </section>
 
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Brayden Wayne Charbonneau | All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

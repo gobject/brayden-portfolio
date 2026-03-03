@@ -39,7 +39,6 @@ I’m a Computer Science BA student at Florida Atlantic University. I’m passio
 ---
 
 ### How to Run Locally
-1. Clone the repo:  
 ```bash
 git clone https://github.com/gobject/brayden-portfolio.git
 
